@@ -60,6 +60,3 @@ The app is designed to help users create, track, and get reminders about their i
 
 ## Contributing
 If you have suggestions or improvements for the app, feel free to fork this repository, make changes, and submit a pull request. Contributions are always welcome!
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
