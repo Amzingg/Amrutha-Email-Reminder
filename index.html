@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reminder</title>
+  <script async src="https://tally.so/widgets/embed.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000000, #111827); /* Elegant gradient */
+      color: #f9fafb;
+      text-align: center;
+      padding: 80px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #4facfe, #00f2fe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #d1d5db;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    button {
+      padding: 14px 36px;
+      font-size: 1.15rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #fff;
+      background: linear-gradient(90deg, #1a73e8, #2563eb);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+      animation: glow 2s infinite ease-in-out;
+    }
+
+    button:hover {
+      background: linear-gradient(90deg, #1669c1, #1d4ed8);
+      transform: translateY(-3px) scale(1.03);
+    }
+
+    /* Glow animation */
+    @keyframes glow {
+      0% { box-shadow: 0 0 10px rgba(37,99,235,0.6); }
+      50% { box-shadow: 0 0 25px rgba(37,99,235,0.9); }
+      100% { box-shadow: 0 0 10px rgba(37,99,235,0.6); }
+    }
+
+    footer {
+      margin-top: 70px;
+      font-size: 0.95rem;
+      color: #6b7280;
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: 0.5px;
+    }
+
+    footer span {
+      color: #f43f5e; /* Stylish pink heart */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>⏰ Amrutha's Reminder App</h1>
+  <p>Stay productive and never miss a task. <br> Add your reminders in just one click!</p>
+
+  <!-- Tally embed button -->
+  <button data-tally-open="meNMAE" 
+          data-tally-overlay="1" 
+          data-tally-emoji-text="✨" 
+          data-tally-emoji-animation="wave">
+    ➕ Add Reminder
+  </button>
+
+  <footer>Made with <span>❤️</span> by Amrutha</footer>
+</body>
+</html>
+
+
+
+
