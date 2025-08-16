@@ -1,5 +1,6 @@
 # Reminder App
-![Screenshot 2024-11-20 164854](https://github.com/user-attachments/assets/8321b371-d47d-418c-aa9b-6db51f981615)
+<img width="1257" height="575" alt="email" src="https://github.com/user-attachments/assets/9911d744-4b73-491c-a262-fbb1cdbf0477" />
+
 
 
 This is a simple Reminder App built using Tally, Forms, Pabbly, and Gmail. The app allows users to submit reminders via forms and automatically sends email notifications to remind them about the tasks at specified intervals.
@@ -60,3 +61,4 @@ The app is designed to help users create, track, and get reminders about their i
 
 ## Contributing
 If you have suggestions or improvements for the app, feel free to fork this repository, make changes, and submit a pull request. Contributions are always welcome!
+
